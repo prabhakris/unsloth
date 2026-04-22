@@ -50,10 +50,10 @@ EXTRAS_REQUIRE = {
     ],
 }
 
-# Combine all optional deps under 'all'
+# Combine all optional deps under 'all' (includes dev tools for personal use)
 EXTRAS_REQUIRE["all"] = [
     dep
-    for group in ["training", "export"]
+    for group in ["training", "export", "dev"]
     for dep in EXTRAS_REQUIRE[group]
 ]
 
