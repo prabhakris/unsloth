@@ -42,6 +42,7 @@ EXTRAS_REQUIRE = {
         "isort",
         "flake8",
         "mypy",
+        "ipython",  # personal addition: useful for interactive debugging sessions
     ],
     "export": [
         "gguf",
