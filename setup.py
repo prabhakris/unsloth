@@ -44,6 +44,7 @@ EXTRAS_REQUIRE = {
         "mypy",
         "ipython",  # personal addition: useful for interactive debugging sessions
         "rich",     # personal addition: nicer tracebacks and output formatting
+        "ipdb",     # personal addition: better pdb debugger with ipython integration
     ],
     "export": [
         "gguf",
