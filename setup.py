@@ -43,6 +43,7 @@ EXTRAS_REQUIRE = {
         "flake8",
         "mypy",
         "ipython",  # personal addition: useful for interactive debugging sessions
+        "rich",     # personal addition: nicer tracebacks and output formatting
     ],
     "export": [
         "gguf",
